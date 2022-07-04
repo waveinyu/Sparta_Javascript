@@ -49,5 +49,5 @@ let totalPrice = 0;
 // let totalPrice = cherryPrice + grapePrice
 console.log((totalPrice = cherryPrice + grapePrice)); // 300000
 
-totalPrice = totalPrice * 0.8;
-console.log(`총 ${totalPrice}원에 물건을 구입합니다.`); // 300000 * 0.8
+// totalPrice = totalPrice * 0.8;
+console.log(`총 ${totalPrice*}원에 물건을 구입합니다.`); // 300000 * 0.8
