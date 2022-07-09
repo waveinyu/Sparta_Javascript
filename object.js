@@ -13,6 +13,19 @@
 class Notebook {
   // 클래스명
   constructor(name, price, brand) {
-    // 생성자(constructor) : 객체가 '생성'될 때 자바스크립트 내부에서 호출이 되는 함수
+    // 생성자(constructor) : 객체가 '생성'될 때 자바스크립트 내부에서 자동으로 호출이 되는 함수
+    this.name = name;
+    this.price = price;
+    this.brand = brand;
+    // this. : 클래스를 사용해 만들어질 객체 자기 자신
+    // name, price, brand : 객체의 속성
+    // 생성자의 바디에는 함수 호출 시 전달할 매개변수(name, price, brand)를 객체의 속성 namd, price, brand에 각각 할당
   }
 }
+
+const notebook1 = new Notebook("Galaxybook", "2000000", "Samsung");
+
+console.log(notebook1);
+console.log(notebook1.name);
+console.log(notebook1.price);
+console.log(notebook1.brand);
